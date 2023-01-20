@@ -21,5 +21,8 @@
     transition-delay: 1s; }
   
   .offcanvas {
-    background-color: #723f53 !important; }
+    background-color: #723f53 !important; 
+    & :hover {
+      color: white;
+    } }
   

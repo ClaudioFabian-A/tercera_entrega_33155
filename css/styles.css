@@ -1,37 +1,14 @@
+@charset "UTF-8";
 * {
   padding: 0 !important;
   margin: 0 !important;
   box-sizing: border-box !important; }
 
-.texto_1::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
+.texto_1::before {
+  content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
 
-.texto_2::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_3::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_4::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_5::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_6::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_7::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_8::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_9::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
-
-.texto_10::after {
-  content: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corrupti ratione perferendis officiis inventore voluptatibus repudiandae fugit iure ullam impedit officia eligendi quam tempora expedita, optio earum reprehenderit aliquid consequatur?"; }
+hovers :hover {
+  color: white !important; }
 
 #bg-light {
   background-color: none !important; }
@@ -57,6 +34,8 @@
 
 .offcanvas {
   background-color: #723f53 !important; }
+  .offcanvas :hover {
+    color: white; }
 
 #header {
   height: 10vh;

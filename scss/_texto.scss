@@ -40,15 +40,19 @@
    content  : "Fina me acompañó durante muchos años más , hasta el 25 de marzo de 2020 que nos despedimos los dos juntos tumbados en mi cama. Desde entonces este proyecto cobra aún más fuerza y todo es un homenaje a ella por haber cambiado mi vida y por ser la protagonista de todo esto";
 }
 .texto_8::before {
-    content: "GRACIAS MI AMOR POR ENSEÑARME A MIRAR, SIEMPRE JUNTOS FINA.
-    MIS DOS AMORES\: FINA y BALA"; 
+    content : "GRACIAS MI AMOR POR ENSEÑARME A MIRAR, SIEMPRE JUNTOS FINA. MIS DOS AMORES : FINA y BALA"; 
     
 }
 
-// .texto_7::before {
+.texto_7::before {
+    content: "Las Sesiones Fotográficas";
     
-// }
+}
 
-// .texto_7::before {
+.texto_7::before {
+    content: "En mi estudio todo está pensado para que los perros se sientan como en su casa, desde que entran por la puerta todo gira en torno a que se sientan cómodos";
     
-// }
+}
+.texto_8::before  {
+    content: "Las sesiones de fotografía son relajadas y divertidas. El bienestar de los perros es mi primer objetivo. Trabajo con ellos utilizando el refuerzo positivo para que, a la vez que posan, se lo pasen bien, jueguen y disfruten";
+}

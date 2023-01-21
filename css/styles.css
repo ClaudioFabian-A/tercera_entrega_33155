@@ -4,6 +4,50 @@
   margin: 0 !important;
   box-sizing: border-box !important; }
 
+.texto_1 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_2 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_3 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_4 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_5 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_6 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_7 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_8 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_9 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_10 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_11 {
+  color: black !important;
+  font-size: 1rem !important; }
+
 #bg-light {
   background-color: none !important; }
 
@@ -11,10 +55,10 @@
   border-style: solid;
   border-width: 5px;
   border-image: conic-gradient(#f09e84, #331404, #ac8464, #c9b2ad, blue, magenta, red) 6;
-  padding: 0%; }
+  padding: 0; }
 
 #particles-js {
-  background-color: #dddd9f;
+  background-color: #f09e84;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -27,9 +71,9 @@
   transition-delay: 1s; }
 
 .offcanvas {
-  background-color: #723f53 !important; }
-  .offcanvas :hover {
-    color: white; }
+  background-color: #e47454 !important; }
+  .offcanvas :hover p {
+    color: #c9b2ad; }
 
 hovers :hover {
   color: white !important; }
@@ -38,15 +82,6 @@ hovers :hover {
   height: 10vh;
   width: 100vw;
   z-index: 1000; }
-
-.texto_1::before {
-  content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
-
-.texto_1::before {
-  content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
-
-.texto_1::before {
-  content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
 
 .texto_1::before {
   content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
@@ -72,13 +107,13 @@ hovers :hover {
 .texto_8::before {
   content: "GRACIAS MI AMOR POR ENSEÑARME A MIRAR, SIEMPRE JUNTOS FINA. MIS DOS AMORES : FINA y BALA"; }
 
-.texto_7::before {
+.texto_9::before {
   content: "Las Sesiones Fotográficas"; }
 
-.texto_7::before {
+.texto_10::before {
   content: "En mi estudio todo está pensado para que los perros se sientan como en su casa, desde que entran por la puerta todo gira en torno a que se sientan cómodos"; }
 
-.texto_8::before {
+.texto_11::before {
   content: "Las sesiones de fotografía son relajadas y divertidas. El bienestar de los perros es mi primer objetivo. Trabajo con ellos utilizando el refuerzo positivo para que, a la vez que posan, se lo pasen bien, jueguen y disfruten"; }
 
 #main {

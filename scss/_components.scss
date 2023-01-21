@@ -5,10 +5,10 @@
     border-style: solid;
     border-width: 5px;
     border-image: conic-gradient($color2, $color3, $color4, $color5, blue, magenta, red) 6;
-    padding: 0%; }
+    padding: 0; }
   
   #particles-js {
-    background-color: #dddd9f;
+    background-color: $color2;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -18,13 +18,14 @@
   .espejo :hover {
     transform: rotateY(180deg);
     transition-duration: 3s;
-    transition-delay: 1s; }
+    transition-delay: 1s; 
+   }
   
   .offcanvas {
-    background-color: #723f53 !important; 
+    background-color: $color1 !important; 
     & :hover {
-      color: white;
+     p{ color: $color5;}
     } }
 
-    // (red, yellow, lime, aqua, blue, magenta, red) 6;
+   
   

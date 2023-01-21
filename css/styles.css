@@ -48,6 +48,42 @@
   color: black !important;
   font-size: 1rem !important; }
 
+.texto_12 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_13 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_14 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_15 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_16 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_17 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_18 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_19 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_20 {
+  color: black !important;
+  font-size: 1rem !important; }
+
 #bg-light {
   background-color: none !important; }
 
@@ -115,6 +151,36 @@ hovers :hover {
 
 .texto_11::before {
   content: "Las sesiones de fotografía son relajadas y divertidas. El bienestar de los perros es mi primer objetivo. Trabajo con ellos utilizando el refuerzo positivo para que, a la vez que posan, se lo pasen bien, jueguen y disfruten"; }
+
+.texto_12::before {
+  content: "PROXIMAS EDICIONES (aún fecha por decidir primavera 2023)"; }
+
+.texto_13::before {
+  content: "Precio total (aún por definir)"; }
+
+.texto_14::before {
+  content: "Para reservar la plaza se deberá abonar una señal de 60 euros por transferencia bancaria."; }
+
+.texto_15::before {
+  content: "PLAZAS 8"; }
+
+.texto_16::before {
+  content: "info@elfotografodeperros.com"; }
+
+.texto_17::before {
+  content: "Teléfono 620950096"; }
+
+.texto_18::before {
+  content: "HORARIO:"; }
+
+.texto_19::before {
+  content: "SÁBADO : 09:00 A 14:00 Y DE 16:00 A 18:00"; }
+
+.texto_20::before {
+  content: "DOMINGO 10:30 A 14:30"; }
+
+.texto_21::before {
+  content: ""; }
 
 #main {
   /* height: 85vh; */

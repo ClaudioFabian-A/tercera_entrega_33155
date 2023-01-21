@@ -84,6 +84,34 @@
   color: black !important;
   font-size: 1rem !important; }
 
+.texto_21 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_22 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_23 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_24 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_25 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_26 {
+  color: black !important;
+  font-size: 1rem !important; }
+
+.texto_27 {
+  color: black !important;
+  font-size: 1rem !important; }
+
 #bg-light {
   background-color: none !important; }
 
@@ -180,6 +208,24 @@ hovers :hover {
   content: "DOMINGO 10:30 A 14:30"; }
 
 .texto_21::before {
+  content: "SOS PERROS Y PERROS EN ADOPCIÓN"; }
+
+.texto_22::before {
+  content: "El fotógrafo de perros quiere devolver a los perros un poquito de lo mucho que nos dan. Por eso, colabora con diferentes protectoras y organizaciones que trabajan para dar un futuro mejor a todos esos perros que no han tenido la suerte de conocer el amor de una buena familia. Hay muchos perros que han sido abandonados, que son maltratados, o que por alguna otra circunstancia han terminado en una protectora o en alguna casa de acogida. Por eso y  porque todos ellos merecen disfrutar de la vida, me pongo a disposición de la gente que trabaja tan duro por darles una vida mejor y  les ofrezco mi colaboración"; }
+
+.texto_23::before {
+  content: "Cuando contrates al fotógrafo de perros, sabrás que tú también estás contribuyendo a crear un mundo mejor para ellos.\a \aPodrás seguir sus historias a través de nuestra página en Facebook y saber que tú también puedes ser  parte de esa red de ayuda.\a \a Estaré encantado de ayudar con mi trabajo casos de perros en apuros, y todas aquellas causas que merezca la pena impulsar."; }
+
+.texto_24::before {
+  content: "El fotógrafo de perros quiere con ello poner su granito de arena, difundir la idea de nuestra responsabilidad para con los perros y contribuir a lograr un mundo mejor para ellos, donde el respeto sea una obligación"; }
+
+.texto_25::before {
+  content: "Ojalá el hombre sea algún día, por fin, el mejor amigo del perro"; }
+
+.texto_26::before {
+  content: ""; }
+
+.texto_27::before {
   content: ""; }
 
 #main {

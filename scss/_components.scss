@@ -1,11 +1,11 @@
 #bg-light {
     background-color: none !important; }
   
-  .with-border {
-    border-style: solid;
-    border-width: 5px;
-    border-image: conic-gradient($color2, $color3, $color4, $color5, blue, magenta, red) 6;
-    padding: 0; }
+  // .with-border {
+  //   border-style: solid;
+  //   border-width: 5px;
+  //   border-image: conic-gradient($color2, $color3, $color4, $color5, blue, magenta, red) 6;
+  //   padding: 0; }
   
   #particles-js {
     background-color: $color2;
@@ -13,12 +13,23 @@
     width: 100vw;
     position: fixed;
     top: 0;
-    z-index: -1; }
+    z-index: -12; }
   
+.espejo{
+
+  transition: .3s ease;
+
+}
+
   .espejo :hover {
-    transform: rotateY(180deg);
+    // transform: rotateY(180deg);
+    // transition-duration: 3s;
+    // transition-delay: 1s;
+    transform: scale(110%) translateZ(100px);
     transition-duration: 3s;
-    transition-delay: 1s; 
+    transition-delay: 1s;
+    
+    filter: contrast(120%);
    }
   
   .offcanvas {
@@ -27,5 +38,81 @@
      p{ color: $color5;}
     } }
 
-   
+   .with-border{
+    background: black;
+    cursor: crosshair;
+    border: none;
+    // padding: 16px 32px !important;
+    margin: 30px;
+    
+    position: relative;
+    }
+
+ 
+
+  .with-border::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+    45deg,
+     red, blue, deeppink,  blue, 
+      red, blue, deeppink, blue
+    );
+    background-size: 1000%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 100s linear infinite;
+
+
+
+
+}
+@keyframes glowing {
+ 
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+
+    }
+    100% {
+        background-position: 0 0;
+
+    }
+
+
+} 
+.mov{
+
+  display: grid;
+  justify-items: center;
+ 
+}
   
+  
+
+.movies {
+  gap: 12rem ;
+  padding-top: 12rem;
+  width: 80%;  
+  display: grid;
+  justify-items: end;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; }
+
+.movie {
+  list-style-type: none;
+  list-style: none; }
+

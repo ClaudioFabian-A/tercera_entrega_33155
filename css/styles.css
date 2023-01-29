@@ -5,111 +5,111 @@
   box-sizing: border-box !important; }
 
 .texto_1 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_2 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_3 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_4 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_5 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_6 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_7 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_8 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_9 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_10 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_11 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_12 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_13 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_14 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_15 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_16 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_17 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_18 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_19 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_20 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_21 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_22 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_23 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_24 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_25 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_26 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 .texto_27 {
-  color: black !important;
+  color: white !important;
   font-size: 1rem !important; }
 
 #bg-light {
@@ -118,11 +118,11 @@
 .with-border {
   border-style: solid;
   border-width: 5px;
-  border-image: conic-gradient(#f09e84, #331404, #ac8464, #c9b2ad, blue, magenta, red) 6;
+  border-image: conic-gradient(#050505, #331404, #fcfaf8, #c9b2ad, blue, magenta, red) 6;
   padding: 0; }
 
 #particles-js {
-  background-color: #f09e84;
+  background-color: #050505;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -231,11 +231,16 @@ hovers :hover {
 #main {
   /* height: 85vh; */
   width: 100vw;
-  color: #ac8464;
+  color: #fcfaf8;
   font-family: 'Times New Roman', Times, serif;
   font-kerning: auto;
   font-size: 0.5rem;
   margin-top: 20vh; }
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
 
 #footer {
   height: 5vh;

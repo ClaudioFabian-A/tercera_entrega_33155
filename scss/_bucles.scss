@@ -1,6 +1,6 @@
 @for $i from 1 to 28 {
 .texto_#{$i} {
-    color : $color6 !important;
+    color : $texto_color1 !important;
     font-size: $letra3 - $letra2 !important;
 }
 

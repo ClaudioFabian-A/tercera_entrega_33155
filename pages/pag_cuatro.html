@@ -61,9 +61,182 @@
   
    
           </div>
+
+
+
+          <div class="container col-md-4 col-sm-12  with-border">
+            <form class="mt-3 needs-validation" novalidate>
+        
+             <div class="row mb-3"> 
+                 <label class="col-2 position-relative col-form-label">nombre</label>
+             <div class="col-10 position-relative">
+                 <input class="form-control" type="text" name="nombre" id="nombre" required>
+                 <div class="valid-tooltip">bien 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+                </div>
+             </div>
+             
+             <div class="row mb-3"> 
+                 <label class="col-2 position-relative col-form-label">apellido</label>
+             <div class="col-10 position-relative">
+                 <input class="form-control" type="text" name="apellido" id="apellido" required>
+        
+             <div class="valid-tooltip">bien cla 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+                </div>
+                </div>
+             
+             <div class="row mb-3"> 
+                 <label class="col-2 position-relative col-form-label">email</label>
+             <div class="col-10 position-relative">
+                 <input class="form-control" type="email" name="email" id="imail" required>
+             <div class="valid-tooltip">bien 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+                </div>
+                </div>
+        
+             <div class="row mb-3"> 
+                <label class="col-2 position-relative col-form-label">telefono</label>
+            <div class="col-10 position-relative">
+                <input class="form-control" type="text" name="telefono" id="telefono" required>
+            <div class="valid-tooltip">bien 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+                </div>
+            </div>
         
         
-        <div class="col-md-4 col-sm-12 col align-self-center with-border" >
+            <div class="row mb-3"> 
+                <label class="col-2 position-relative col-form-label">direccion</label>
+            <div class="col-10 position-relative">
+                <input class="form-control" type="text" name="direccion" id="direccion" required>
+            
+                <div class="valid-tooltip">bien 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+            </div>
+            </div>
+            
+        
+             <div class="row mb-3">
+                 <div class="form-check position-relative">
+                     <input class="form-check-imput" type="checkbox" id="checkbox">
+                     <label class="form-check-label" for="checkbox" >acepto los termonos y condiciones</label>
+        
+                 <div class="valid-tooltip">bienññ 
+        
+                 </div>    
+                 <div class="invalid-tooltip">
+                    mal
+                 </div>
+                    </div> 
+                 <button type="submit" class="btn">boton</button>
+             </div>
+             
+             
+             
+        
+        
+        
+        
+        
+        
+        
+            </form>
+        
+         </div>
+        
+        <script>
+            // Ejemplo de JavaScript inicial para deshabilitar el envío de formularios si hay campos no válidos
+        (function () {
+          'use strict'
+        
+          // Obtener todos los formularios a los que queremos aplicar estilos de validación de Bootstrap personalizados
+          var forms = document.querySelectorAll('.needs-validation')
+        
+          // Bucle sobre ellos y evitar el envío
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+        
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+        </script>
+        
+          
+        
+        
+
+<!--         
+        <div class="col-md-4 col-sm-12 with-border">
+          <div class="input-group mb-3 row justify-content-around">
+            <div class="mb-3">
+            
+            <input type="text" class="form-control" placeholder="" aria-label="Texto de ejemplo con complemento de botón" aria-describedby="button-addon1">
+          </div>
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" placeholder="" aria-label="Texto de ejemplo con complemento de botón" aria-describedby="button-addon1">
+
+          </div>
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" placeholder="" aria-label="Texto de ejemplo con complemento de botón" aria-describedby="button-addon1">
+
+          </div>
+
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" placeholder="" aria-label="Texto de ejemplo con complemento de botón" aria-describedby="button-addon1">
+
+          </div>
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" placeholder="" aria-label="Texto de ejemplo con complemento de botón" aria-describedby="button-addon1">
+          </div>
+          <div class="input-group mb-3 row justify-content-around ">
+
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Botón</button>
+        </div> -->
+          
+          </div>
+          
+        </div>
+
+          
+          
+          
+
+
+          
+
+        
+        
+        <!-- <div class="col-md-4 col-sm-12 col align-self-center with-border" >
             <form action="" method="post">
       <ul class=" ">
           <input  class="form-control-lg" type="text" name="" id="" required placeholder="nombre" >      
@@ -76,12 +249,13 @@
     </form>
 
 
-        </div>
+        </div> -->
+      </div>
       </div>
 
 
 
-        </div>
+       
        
 
     </main>

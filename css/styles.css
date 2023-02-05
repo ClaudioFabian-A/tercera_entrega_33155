@@ -195,7 +195,7 @@
   transition: .3s ease; }
 
 .espejo :hover {
-  transform: scale(110%) translateZ(100px);
+  transform: scale(130%) translateZ(100px);
   transition-duration: 3s;
   transition-delay: 1s;
   filter: contrast(120%); }
@@ -204,7 +204,8 @@
   background-color: #c9b2ad !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
   .offcanvas :hover p {
-    color: #c9b2ad; }
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%; }
 
 .with-border {
   background: black;
@@ -225,7 +226,7 @@
   background-size: 1000%;
   border-radius: 10px;
   filter: blur(8px);
-  animation: glowing 100s linear infinite; }
+  animation: glowing 1000s linear infinite; }
 
 @keyframes glowing {
   0% {

@@ -11,9 +11,11 @@ $letra1 : 1rem;
 $letra2 : 2rem;
 $letra3 : 3rem;
 
-$texto_color1 : white;
+$texto_color1 : rgb(255, 255, 255);
 
-$modal-backdrop-bg1 : $color2 ;
+// $variable-prefix: rgb(197, 146, 146);
+// $modal-backdrop-bg1 : $color2 ;
+// $modal-backdrop-bg: rgb(252, 249, 249) !important;
 
 $offcanvas-padding-y:               $modal-inner-padding;
 $offcanvas-padding-x:               $modal-inner-padding;

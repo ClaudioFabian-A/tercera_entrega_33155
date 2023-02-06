@@ -2,6 +2,21 @@
     height: 10vh;
     width: 100vw; 
     z-index: 1000;
-   
+    
+  
+    
 }
+.logo {
+    text-indent:-99999px;
+    width: 10vh;
+    height: 10vh;
+    background: url(../assets/icons/onnx.svg);
+    display: block;
+    background-color: antiquewhite;
+    border-radius: 50% 50% / 50% 50%;
+  }
+
+.hypatia{
+    color: rgb(245, 54, 54);
+}  
   

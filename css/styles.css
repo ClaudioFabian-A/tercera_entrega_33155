@@ -72,6 +72,17 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd; }
 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: #ec1010 !important; }
+
 .texto_1 {
   color: white !important;
   font-size: 1rem !important; }
@@ -8650,6 +8661,18 @@ hovers :hover {
   height: 10vh;
   width: 100vw;
   z-index: 1000; }
+
+.logo {
+  text-indent: -99999px;
+  width: 10vh;
+  height: 10vh;
+  background: url(../assets/icons/onnx.svg);
+  display: block;
+  background-color: antiquewhite;
+  border-radius: 50% 50% / 50% 50%; }
+
+.hypatia {
+  color: #f53636; }
 
 .texto_1::before {
   content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }

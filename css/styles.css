@@ -212,9 +212,34 @@
   filter: contrast(120%); }
 
 .offcanvas {
-  background-color: #c9b2ad !important;
+  border-color: red;
+  border-width: 2px;
+  background-color: #050505 !important;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .offcanvas p {
+    color: #fcfaf8 !important;
+    border-radius: 25% 10%;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px; }
   .offcanvas :hover p {
+    color: #050505;
+    background-color: #0a0a0a;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%; }
+
+.navbar-nav {
+  background-color: #050505 !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+  .navbar-nav p {
+    color: #fcfaf8 !important;
+    border-radius: 25% 10%;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px; }
+  .navbar-nav :hover p {
+    color: #050505;
+    background-color: #202122;
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
     font-size: 81.25%; }
 
@@ -5210,7 +5235,7 @@ textarea.form-control-lg {
   --bs-offcanvas-color: ;
   --bs-offcanvas-bg: #fff;
   --bs-offcanvas-border-width: 1px;
-  --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+  --bs-offcanvas-border-color: grey;
   --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); }
 
 @media (max-width: 575.98px) {
@@ -8708,10 +8733,10 @@ hovers :hover {
   content: "Las sesiones de fotografía son relajadas y divertidas. El bienestar de los perros es mi primer objetivo. Trabajo con ellos utilizando el refuerzo positivo para que, a la vez que posan, se lo pasen bien, jueguen y disfruten"; }
 
 .texto_12::before {
-  content: "PROXIMAS EDICIONES (aún fecha por decidir primavera 2023)"; }
+  content: "PROXIMAS EDICIONES (durante la primera quincena de la  primavera 2023)"; }
 
 .texto_13::before {
-  content: "Precio total (aún por definir)"; }
+  content: "Precio total (7000 euros.)"; }
 
 .texto_14::before {
   content: "Para reservar la plaza se deberá abonar una señal de 60 euros por transferencia bancaria."; }
@@ -8792,8 +8817,14 @@ hovers :hover {
   filter: contrast(120%); }
 
 #footer {
-  height: 5vh;
-  width: auto; }
+  height: 15vh;
+  width: auto;
+  margin-top: 50px;
+  text-align: center; }
+
+h6, .h6 {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 @media (max-width: 576px) {
   #footer {

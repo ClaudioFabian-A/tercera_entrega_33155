@@ -36,18 +36,56 @@
    
   
   .offcanvas {
-    background-color: $color5 !important;
+    border-color: red;
+    border-width: 2px;
+    background-color: $color2 !important;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    p{
+      color: $color4 !important;
+      border-radius: 25% 10%;
+      border-style: solid;
+      border-color: red;
+      border-width: 2px;
+    }
+    
     & :hover {
-     p{ font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
-      font-size: 81.25%;}
+     p{
+      color: $color2; 
+      background-color: rgb(10, 10, 10);
+      font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+      font-size: 81.25%;
+    }
+    } }
+   
+  
+  
+  
+  .navbar-nav {
+    
+    background-color: $color2 !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    p{
+      color: $color4 !important;
+      border-radius: 25% 10%;
+      border-style: solid;
+      border-color: red;
+      border-width: 2px;
+    }
+    
+    & :hover {
+     p{
+      color: $color2; 
+      background-color: rgb(32, 33, 34);
+      font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+      font-size: 81.25%;
+    }
     } }
 
    .with-border{
     background: black;
     cursor: crosshair;
     border: none;
-    // padding: 16px 32px !important;
+   
     margin: 30px;
     
     position: relative;

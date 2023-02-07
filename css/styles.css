@@ -293,6 +293,13 @@
   list-style-type: none;
   list-style: none; }
 
+.icon {
+  background-color: aliceblue;
+  border-radius: 50% 50% / 50% 50%;
+  border-style: solid;
+  border-color: red;
+  box-sizing: 1px; }
+
 /*!
    * Bootstrap  v5.2.3 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
@@ -8697,7 +8704,8 @@ hovers :hover {
   border-radius: 50% 50% / 50% 50%; }
 
 .hypatia {
-  color: #f53636; }
+  color: #f53636;
+  filter: blur(0.5); }
 
 .texto_1::before {
   content: "Emilio Cuenca, fotógrafo de prensa desde 2004 y adiestrador de perros, con licencia expedida por la Asociación Nacional de Adiestradores Caninos Profesionales"; }
